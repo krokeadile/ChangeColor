@@ -63,11 +63,6 @@ class ViewController: UIViewController {
         String(format: "%.2f", slider.value)
     }
     
-    private func setMinimumAndMaximumValue(for slider: UISlider) {
-        slider.minimumValue = 0
-        slider.maximumValue = 1
-    }
-    
     private func setupSlider(for slider: UISlider) {
         slider.minimumValue = 0
         slider.maximumValue = 1
